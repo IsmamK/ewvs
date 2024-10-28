@@ -26,14 +26,14 @@ const News = ({ divider, bgColor = '#f8fafc', textColor = '#333' }) => {
     <div className="relative" style={{ backgroundColor: bgColor, color: textColor }}>
       {divider && <img src={divider} className="absolute top-0 w-full" alt="Divider" />}
 
-      <div className="px-6 py-24 md:px-20 mx-auto text-center">
-        <h2 className="text-5xl font-extrabold mb-12">Latest News</h2>
+      <div className="px-6 py-10 md:px-20 mx-auto text-center">
+        <h2 className="text-5xl lg:text-7xl font-extrabold mb-12">Latest News</h2>
 
         <div className="grid gap-10 grid-cols-1 lg:grid-cols-3">
           {newsItems.map((news, index) => (
             <div
               key={index}
-              className="bg-black text-csc  rounded-lg  hover:shadow-lg transition-shadow duration-300 p-4"
+              className="bg-white text-ewvs  rounded-lg  hover:shadow-lg transition-shadow duration-300 p-4"
             >
               <img
                 className="rounded-t-lg w-full h-48 object-cover"
@@ -46,7 +46,7 @@ const News = ({ divider, bgColor = '#f8fafc', textColor = '#333' }) => {
                 <p className="mt-2 ">{news.summary}</p>
                 <a
                   href="#"
-                  className="inline-flex items-center mt-4 px-4 py-2 text-sm font-semibold text-black bg-csc  rounded-lg shadow hover:bg-gray-100 transition duration-300"
+                  className="inline-flex items-center mt-4 px-4 py-2 text-sm font-semibold text-white bg-ewvs  rounded-lg shadow hover:bg-gray-100 transition duration-300"
                 >
                   Read more
                   <svg

@@ -27,17 +27,17 @@ const Home = () => {
 
     
       <CarouselComponent />
-      <Hero divider={getDivider('currentShape')} bgColor = "white" textColor="#d7ac70" />
-      <Cards divider={getDivider(currentShape)} bgColor = "#d7ac70" textColor="black" />
-      <Services divider={getDivider(currentShape)} bgColor = "white" textColor="#d7ac70" />
-      <Statistics divider={getDivider(currentShape)} bgColor = "#d7ac70" textColor="black"  />
-      <GridCards divider={getDivider(currentShape)} bgColor = "white" textColor="#d7ac70" />
-      <WhyUs divider={getDivider(currentShape)} bgColor = "#d7ac70" textColor="black"  />
-      <OurClients divider={getDivider(currentShape)} bgColor = "white" textColor="#d7ac70"  />
-      <News divider={getDivider(currentShape)} bgColor = "#d7ac70" textColor="black" />
-      <Contact divider={getDivider(currentShape)} bgColor = "white" textColor="#d7ac70" />
-      <Location divider={getDivider(currentShape)} bgColor = "#d7ac70" textColor="black"  />
-      <FeaturedVideo divider={getDivider(currentShape)} bgColor = "white" textColor="#d7ac70" />
+      <Hero divider={getDivider('currentShape')} bgColor = "white" textColor="#7340aa" />
+      <Cards divider={getDivider(currentShape)} bgColor = "#7340aa" textColor="white" />
+      <Services divider={getDivider(currentShape)} bgColor = "white" textColor="#7340aa" />
+      <Statistics divider={getDivider(currentShape)} bgColor = "#7340aa" textColor="white"  />
+      <GridCards divider={getDivider(currentShape)} bgColor = "white" textColor="#7340aa" />
+      <WhyUs divider={getDivider(currentShape)} bgColor = "#7340aa" textColor="white"  />
+      <OurClients divider={getDivider(currentShape)} bgColor = "white" textColor="#7340aa"  />
+      <News divider={getDivider(currentShape)} bgColor = "#7340aa" textColor="white" />
+      <Contact divider={getDivider(currentShape)} bgColor = "white" textColor="#7340aa" />
+      <Location divider={getDivider(currentShape)} bgColor = "#7340aa" textColor="white"  />
+      <FeaturedVideo divider={getDivider(currentShape)} bgColor = "white" textColor="#7340aa" />
 
       {/* Floating dropdown to select divider shape
       <div className="fixed top-5 right-5 z-50 bg-white p-4 rounded-lg shadow-lg">

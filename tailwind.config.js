@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        csc: '#d7ac70',
+        ewvs: '#7340aa',
       },
       keyframes: {
         marquee: {

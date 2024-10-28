@@ -17,7 +17,7 @@ const Contact2 = ({bgColor,textColor}) => {
       phone: "470-601-1911",
       email: "Pagedone1234@gmail.com",
       address: "789 Oak Lane, Lakeside, TX 54321",
-      imageUrl: "https://img.freepik.com/premium-vector/premium-golden-geometric-pattern-background-art_1027691-1362.jpg?semt=ais_hybrid",
+      imageUrl: "https://img.freepik.com/premium-photo/textile-ready-splendid-print-swimwear-fabric_174187-21185.jpg?w=1800",
     };
     setContactData(data);
   };
@@ -56,7 +56,7 @@ const Contact2 = ({bgColor,textColor}) => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full h-14 shadow-sm text-csc placeholder-text-400 text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none py-2 px-4 mb-8" 
+                    className="w-full h-14 shadow-sm text-ewvs placeholder-text-400 text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none py-2 px-4 mb-8" 
                     placeholder="Name"
                   />
                   <input 
@@ -74,7 +74,7 @@ const Contact2 = ({bgColor,textColor}) => {
                     className="w-full h-48 shadow-sm resize-none text-gray-600 placeholder-text-400 text-lg font-normal leading-7 rounded-2xl border border-gray-200 focus:outline-none px-4 py-4 mb-8" 
                     placeholder="Message"
                   />
-                  <button className="w-full h-12 text-center  text-base font-semibold leading-6 rounded-full bg-black text-csc shadow transition-all duration-700 hover:bg-indigo-800">Submit</button>
+                  <button className="w-full h-12 text-center  text-base font-semibold leading-6 rounded-full bg-white text-ewvs shadow transition-all duration-700 hover:bg-indigo-800">Submit</button>
                 </form>
               </div>
             </div>

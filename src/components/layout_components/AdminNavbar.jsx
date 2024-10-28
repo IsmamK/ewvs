@@ -20,7 +20,7 @@ const AdminNavbar = ({ toggleSidebar }) => {
   };
 
   return (
-    <div className="navbar bg-base-100 dark:bg-black ml-0 dark:text-white ">
+    <div className="navbar bg-base-100 dark:bg-white ml-0 dark:text-white ">
       <div tabIndex={0} role="button" onClick={toggleSidebar} className="btn btn-ghost btn-circle lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"

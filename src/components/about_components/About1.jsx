@@ -54,7 +54,7 @@ const About1 = ({ bgColor, textColor }) => {
                   </p>
                 </div>
               </div>
-              <button className="sm:w-fit w-full px-3.5 py-2 text-csc bg-black transition-all duration-700 ease-in-out rounded-lg shadow-lg justify-center items-center flex">
+              <button className="sm:w-fit w-full px-3.5 py-2 text-ewvs bg-white transition-all duration-700 ease-in-out rounded-lg shadow-lg justify-center items-center flex">
                 <span className="px-1.5  text-sm font-medium leading-6">Join Us</span>
               </button>
             </div>

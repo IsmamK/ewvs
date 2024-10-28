@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { dividers } from '../config/dividerConfig';
 
-const useDividers = (initialDivider = 'triangle', initialColor = 'black') => {
+const useDividers = (initialDivider = 'triangle', initialColor = 'white') => {
   const [currentDivider, setCurrentDivider] = useState(initialDivider);
-  const [isBlack, setIsBlack] = useState(initialColor === 'black');
+  const [isBlack, setIsBlack] = useState(initialColor === 'white');
 
   const getDivider = () => {
-    const color = isBlack ? 'black' : 'white';
+    const color = isBlack ? 'white' : 'white';
     return dividers[currentDivider][color];
   };
 
-  // Toggle between black and white
+  // Toggle between white and white
   const toggleColor = () => {
     setIsBlack((prev) => !prev);
   };

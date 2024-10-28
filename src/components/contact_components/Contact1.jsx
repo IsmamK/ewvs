@@ -56,24 +56,24 @@ const Contact1 = ({bgColor,textColor}) => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="md:flex gap-x-24 clear-left md:mb-16 mb-10">
             <div className="md:mb-0 mb-4">
-              <h2 className="text-black font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">{content.header}</h2>
-              <p className="text-gray-600 text-lg font-normal leading-7 mb-7 md:text-left text-center">
+              <h2 className="text-white font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">{content.header}</h2>
+              <p className=" text-lg font-normal leading-7 mb-7 md:text-left text-center">
                 {content.subHeader}
               </p>
               <div className="flex md:items-center md:justify-start justify-center">
-                <button className="w-36 h-12 rounded-full bg-black text-csc transition-all duration-700 hover:bg-indigo-800 shadow text-white text-center text-base font-semibold leading-6">
+                <button className="w-36 h-12 rounded-full bg-white text-ewvs transition-all duration-700 hover:bg-indigo-800 shadow text-white text-center text-base font-semibold leading-6">
                   {content.buttonText}
                 </button>
               </div>
             </div>
-            <div className="border-l-2 md:border-black border-white px-10 py-6">
+            <div className="border-l-2 md:border-white border-white px-10 py-6">
               <div className="mb-8">
-                <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">{content.emailLabel}</h6>
-                <h3 className="text-black text-xl font-semibold leading-8 md:text-start text-center">{content.email}</h3>
+                <h6 className=" text-sm font-medium leading-5 pb-3 md:text-start text-center">{content.emailLabel}</h6>
+                <h3 className="text-white text-xl font-semibold leading-8 md:text-start text-center">{content.email}</h3>
               </div>
               <div>
-                <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">{content.phoneLabel}</h6>
-                <h3 className="text-black text-xl font-semibold leading-8 md:text-start text-center">{content.phone}</h3>
+                <h6 className="text-sm font-medium leading-5 pb-3 md:text-start text-center">{content.phoneLabel}</h6>
+                <h3 className="text-white text-xl font-semibold leading-8 md:text-start text-center">{content.phone}</h3>
               </div>
             </div>
           </div>

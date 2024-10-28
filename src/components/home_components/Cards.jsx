@@ -18,7 +18,7 @@ const Card = ({ imageSrc, title, initialDetails, additionalDetails }) => {
       />
       
       
-      <div className='absolute bottom-0 text-center bg-black w-full opacity-80 text-csc font-extrabold p-5 hover:h-[85%] hover:text-left'
+      <div className='absolute bottom-0 text-center bg-white w-full opacity-80 text-ewvs font-extrabold p-5 hover:h-[85%] hover:text-left'
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={()=>setIsHovered(!isHovered)}
@@ -27,7 +27,7 @@ const Card = ({ imageSrc, title, initialDetails, additionalDetails }) => {
         <div className='flex'>
           <h1>
         {title}
-        <FontAwesomeIcon icon={faArrowUp} className = {`text-white mt-2 ml-5 text-xl font-extrabold ${isHovered ? 'rotate-180':'' }`} />
+        <FontAwesomeIcon icon={faArrowUp} className = {`text-ewvs mt-2 ml-5 text-xl font-extrabold ${isHovered ? 'rotate-180':'' }`} />
         </h1>
         </div>
 
@@ -65,11 +65,11 @@ const Cards = ({divider,bgColor,textColor}) => {
   ];
 
   return (
-    <div className='relative '>
+    <div className='relative'>
             <img src={divider || ""} className='absolute top-0 z-100' />
 
  
-    <div className='hero p-10 lg:p-30 flex flex-col-reverse md:flex-col gap-10 md:gap-20' style={{ backgroundColor: bgColor, color: textColor }} >
+    <div className='hero flex flex-col-reverse md:flex-col gap-10 md:gap-20 pb-10' style={{ backgroundColor: bgColor, color: textColor }} >
       
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-center mt-10 lg:mt-28">
       {cardsData.map((card, index) => (

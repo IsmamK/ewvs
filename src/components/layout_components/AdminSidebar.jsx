@@ -5,7 +5,7 @@ import { FaTachometerAlt, FaWarehouse, FaTruck, FaStore, FaFileInvoice, FaChartP
 const AdminSidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <div
-      className={`z-10 dark:text-white fixed dark:bg-blue-800 lg:relative lg:translate-x-0 flex flex-col p-10 dark:border-black border-r border-gray-50 min-h-screen bg-white transition-transform duration-300 ${
+      className={`z-10 dark:text-white fixed dark:bg-blue-800 lg:relative lg:translate-x-0 flex flex-col p-10 dark:border-white border-r border-gray-50 min-h-screen bg-white transition-transform duration-300 ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       } overflow-y-auto`} // Added `overflow-y-auto` here
     > 
@@ -87,7 +87,7 @@ const AdminSidebar = ({ isOpen, toggleSidebar }) => {
        
       </ul>
       <div className="flex mt-20 justify-between items-center border-t border-gray-300 pt-8">
-        <button className="btn btn-xs dark:bg-warning text-black btn-warning">Log Out</button>
+        <button className="btn btn-xs dark:bg-warning text-white btn-warning">Log Out</button>
         <div className="avatar">
           <div className="w-10 mask mask-squircle">
             <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" alt="User Avatar" />

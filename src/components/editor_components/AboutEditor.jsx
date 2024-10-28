@@ -12,13 +12,13 @@ const AboutEditor = () => {
   const renderActiveComponent = () => {
     switch (activeTab) {
       case 'About1':
-        return <About1 bgColor="white" textColor="black" />;
+        return <About1 bgColor="white" textColor="white" />;
       case 'About2':
-        return <About2 bgColor="black" textColor="white" />;
+        return <About2 bgColor="white" textColor="white" />;
       case 'Team':
-        return <Team bgColor="white" textColor="black" />;
+        return <Team bgColor="white" textColor="white" />;
       case 'FAQ':
-        return <FAQ bgColor="black" textColor="white" />;
+        return <FAQ bgColor="white" textColor="white" />;
       default:
         return null;
     }
@@ -55,7 +55,7 @@ const AboutEditor = () => {
         </div>
 
         {/* Mockup Browser Section */}
-        <div className="mockup-browser bg-white border-8 border-black p-4 h-[700px] overflow-y-scroll flex-grow">
+        <div className="mockup-browser bg-white border-8 border-white p-4 h-[700px] overflow-y-scroll flex-grow">
           <div className="mockup-browser-toolbar mb-4">
             <div className="input bg-gray-200 p-2 rounded">https://sample-website.com</div>
           </div>

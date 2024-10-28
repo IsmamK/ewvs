@@ -57,7 +57,7 @@ const GridCards = ({ divider ,bgColor,textColor}) => {
                 <div className="flip-card-front">
                   <img className="w-full h-full rounded-lg" src={image} alt={`Card ${index}`} />
                 </div>
-                <div className='bg-black h-full flip-card-back p-5 text-csc flex flex-col justify-center'>
+                <div className='bg-ewvs h-full flip-card-back p-5 text-white flex flex-col justify-center'>
                   <h2 className='text-2xl font-bold mb-2'>{details[index].title}</h2>
                   <p>{details[index].description}</p>
                 </div>

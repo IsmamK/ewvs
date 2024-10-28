@@ -12,7 +12,7 @@ const ContactEditor = () => {
     </div>
 
     {/* Mockup Browser Section */}
-    <div className="mockup-browser bg-white border-8 border-black p-2 h-[700px] overflow-y-scroll">
+    <div className="mockup-browser bg-white border-8 border-white p-2 h-[700px] overflow-y-scroll">
       <div className=''>
         <div className="mockup-browser-toolbar m-10">
           <div className="input">https://sample-website.com</div>

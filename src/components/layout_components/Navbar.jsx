@@ -12,8 +12,8 @@ const Navbar = () => {
   const handleLinkClick = () => setIsDropdownOpen(false);
 
   return (
-    <div className="sticky top-0 shadow-lg z-50 relative"> {/* Ensure sticky with z-index */}
-      <div className="navbar bg-black text-csc">
+    <div className="sticky top-0 shadow-lg z-50 "> {/* Ensure sticky with z-index */}
+      <div className="navbar bg-ewvs text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -27,7 +27,7 @@ const Navbar = () => {
                 className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="white"
               >
                 <path
                   strokeLinecap="round"
@@ -38,7 +38,7 @@ const Navbar = () => {
               </svg>
             </div>
             <ul
-              className={`menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${
+              className={`menu menu-sm dropdown-content bg-base-100 text-ewvs rounded-box z-[1] mt-3 w-52 p-2 shadow ${
                 isDropdownOpen ? 'block' : 'hidden'
               }`}
             >
@@ -55,7 +55,7 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary className="cursor-pointer">Our Services</summary>
-                  <ul className="p-2">
+                  <ul className="p-2 text-ewvs">
                     {servicesData.map((service) => (
                       <li key={service.id}>
                         <Link to={`/services/${service.slug}`} onClick={handleLinkClick}>
@@ -84,7 +84,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="home" className="btn btn-ghost">
-            <img src="csclogo.png" alt="Company Logo" className="h-40 absolute left-10" />
+            <img src="ewvs.png" alt="Company Logo" className="h-10 absolute left-10 hidden lg:block bg-white rounded-lg" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -98,7 +98,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className="cursor-pointer">Our Services</summary>
-                <ul className="p-2">
+                <ul className="p-2 text-ewvs">
                   {servicesData.map((service) => (
                     <li key={service.id}>
                       <Link to={`/services/${service.slug}`}>{service.title}</Link>
@@ -118,6 +118,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+
+        
+            <img src="ewvs.png" alt="Company Logo" className="h-10 absolute right-10 lg:hidden bg-white rounded-lg" />
+     
+    
+  
       </div>
     </div>
   );

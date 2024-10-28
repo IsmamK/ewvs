@@ -11,7 +11,7 @@ const Contact = ({ divider,bgColor,textColor }) => {
       <div className='max-w-7xl mx-auto p-10'
        
       >
-        <h1 className='text-6xl font-extrabold text-center mb-16  leading-tight'>Let’s Talk</h1>
+        <h1 className='text-5xl lg:text-7xl font-extrabold text-center mb-16  leading-tight'>Let’s Talk</h1>
         
         <div className='grid gap-12 md:grid-cols-2 items-center'>
           
@@ -44,7 +44,7 @@ const Contact = ({ divider,bgColor,textColor }) => {
                 <label className='text-lg font-semibold mb-2'>Your Name</label>
                 <input
                   type='text'
-                  className='p-4 border-4 border-csc rounded-lg text-csc text-lg focus:outline-none focus:ring-4 focus:ring-blue-400 transition duration-300'
+                  className='p-4 border-4 border-ewvs rounded-lg text-ewvs text-lg focus:outline-none focus:ring-4 focus:ring-blue-400 transition duration-300'
                   placeholder='Enter your name'
                 />
               </div>
@@ -52,21 +52,21 @@ const Contact = ({ divider,bgColor,textColor }) => {
                 <label className='text-lg font-semibold  mb-2'>Email Address</label>
                 <input
                   type='email'
-                  className='p-4 border-4 border-csc rounded-lg text-lg focus:outline-none focus:ring-4 focus:ring-blue-400 transition duration-300'
+                  className='p-4 border-4 border-ewvs rounded-lg text-lg focus:outline-none focus:ring-4 focus:ring-blue-400 transition duration-300'
                   placeholder='Enter your email'
                 />
               </div>
               <div className='flex flex-col'>
                 <label className='text-lg font-semibold  mb-2'>Message</label>
                 <textarea
-                  className='p-4 border-4 border-csc rounded-lg text-lg focus:outline-none focus:ring-4 focus:ring-blue-400 transition duration-300'
+                  className='p-4 border-4 border-ewvs rounded-lg text-lg focus:outline-none focus:ring-4 focus:ring-blue-400 transition duration-300'
                   placeholder='Write your message here'
                   rows='6'
                 ></textarea>
               </div>
               <button
                 type='submit'
-                className='w-full btn bg-black text-csc text-center h-full rounded-lg font-semibold text-lg hover:bg-gray-100 transition duration-300'
+                className='w-full btn bg-white text-ewvs text-center h-full rounded-lg font-semibold text-lg hover:bg-gray-100 transition duration-300'
               >
                 Send Message
               </button>

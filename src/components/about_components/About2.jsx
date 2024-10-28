@@ -36,7 +36,7 @@ const About2 = ({bgColor, textColor}) => {
               <div className="w-full flex-col justify-center items-start gap-6 flex">
                 <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                   {mockData.stats.slice(0, 2).map((stat, index) => (
-                    <div key={index} className="w-full h-full p-3.5 rounded-xl border bg-black text-csc transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                    <div key={index} className="w-full h-full p-3.5 rounded-xl border bg-white text-ewvs transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                       <h4 className="text-2xl font-bold font-manrope leading-9">{stat.title}</h4>
                       <p className="font-normal leading-relaxed">{stat.description}</p>
                     </div>
@@ -44,7 +44,7 @@ const About2 = ({bgColor, textColor}) => {
                 </div>
                 <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                   {mockData.stats.slice(2).map((stat, index) => (
-                    <div key={index} className="w-full h-full p-3.5 rounded-xl border border-gray-200 bg-black text-csc transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                    <div key={index} className="w-full h-full p-3.5 rounded-xl border border-gray-200 bg-white text-ewvs transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                       <h4 className="text-2xl font-bold font-manrope leading-9">{stat.title}</h4>
                       <p className="text-base font-normal leading-relaxed">{stat.description}</p>
                     </div>
@@ -52,7 +52,7 @@ const About2 = ({bgColor, textColor}) => {
                 </div>
               </div>
             </div>
-            <button className="sm:w-fit w-full group px-3.5 py-2 text-csc bg-black rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
+            <button className="sm:w-fit w-full group px-3.5 py-2 text-ewvs bg-white rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
               <span className="px-1.5 text-md font-bold leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">
                 {mockData.buttonLabel}
               </span>
@@ -60,8 +60,8 @@ const About2 = ({bgColor, textColor}) => {
             </button>
           </div>
           <div className="w-full lg:justify-start justify-center items-start flex">
-            <div className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-black rounded-3xl  relative">
-              <img className="sm:mt-5 sm:border-2 border-csc sm:ml-5 w-full h-full rounded-3xl object-cover" src={mockData.imageUrl} alt="about Us image" />
+            <div className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-white rounded-3xl  relative">
+              <img className="sm:mt-5 sm:border-2 border-ewvs sm:ml-5 w-full h-full rounded-3xl object-cover" src={mockData.imageUrl} alt="about Us image" />
             </div>
           </div>
         </div>

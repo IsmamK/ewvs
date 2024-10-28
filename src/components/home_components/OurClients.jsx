@@ -17,11 +17,11 @@ const OurClients = ({ divider,bgColor,textColor }) => {
       
       <div className="overflow-hidden py-20">
         <div className="flex items-center justify-center">
-          <h2 className="text-7xl font-bold mb-6 mt-10">Our Affiliations</h2>
+          <h2 className="text-5xl md:text-7xl  font-bold mb-6 mt-10">Our Affiliations</h2>
         </div>
 
         {/* Logo Slider Container */}
-        <div className="w-3/4 mx-auto relative flex overflow-x-hidden mt-10 border-x-8 border-csc">
+        <div className="w-3/4 mx-auto relative flex overflow-x-hidden mt-10 border-x-8 border-ewvs">
           <div className="flex animate-marquee whitespace-nowrap space-x-10">
             {/* Map over logos twice to duplicate */}
             {logos.concat(logos).map((logo, index) => (

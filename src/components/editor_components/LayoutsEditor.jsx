@@ -14,7 +14,7 @@ const LayoutsEditor = () => {
       </div>
 
       {/* Mockup Browser Section */}
-      <div className="mockup-browser bg-white border-8 border-black p-2 h-[700px]o overflow-scroll">
+      <div className="mockup-browser bg-white border-8 border-white p-2 h-[700px]o overflow-scroll">
         <div className='bg-blue-800 '>
           <div className="mockup-browser-toolbar m-10">
             <div className="input">https://sample-website.com</div>
@@ -25,7 +25,7 @@ const LayoutsEditor = () => {
                 <div className='overflow-x-scroll bg-blue-800'>
                     <Navbar />
             </div>
-            <Footer bgColor={"black"} textColor={"white"}/>
+            <Footer bgColor={"white"} textColor={"white"}/>
 
             </div>
           </div>
