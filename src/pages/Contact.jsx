@@ -5,8 +5,8 @@ import Contact2 from '../components/contact_components/Contact2'
 const Contact = () => {
   return (
     <div>
-    <Contact1 bgColor = "#2c2c6c" textColor="white"/>
-    <Contact2 bgColor = "white" textColor="#2c2c6c"/>
+    <Contact1 bgColor = "#36013f" textColor="white"/>
+    <Contact2 bgColor = "white" textColor="#36013f"/>
     
 </div>
   )
