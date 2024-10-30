@@ -8,7 +8,7 @@ const Card = ({ imageSrc, title, initialDetails, additionalDetails }) => {
   return (
     
     <div 
-      className="relative w-64 h-64 group "
+      className="relative w-64 h-64 group bg-purple-800"
     >
       {/* Image */}
       <img 
