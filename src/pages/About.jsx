@@ -23,10 +23,10 @@ const About = () => {
   
   return (
     <div>
-        <About1 bgColor = "#65418b" textColor="white"/>
-        <About2 bgColor = "white" textColor="#65418b"/>
-        <Team bgColor = "#65418b" textColor="white"/>
-        <FAQ bgColor = "white" textColor="#65418b"/>
+        <About1 bgColor = "#2c2c6c" textColor="white"/>
+        <About2 bgColor = "white" textColor="#2c2c6c"/>
+        <Team bgColor = "#2c2c6c" textColor="white"/>
+        <FAQ bgColor = "white" textColor="#2c2c6c"/>
     </div>
     
         
